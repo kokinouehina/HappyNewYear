@@ -1,7 +1,4 @@
-<script setup>
-console.log(import.meta.env.VITE_BASE_TEST)
-console.log(import.meta.env.VITE_BASE_TEST)
-</script>
+<script setup></script>
 
 <template>
   <br />

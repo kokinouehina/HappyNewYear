@@ -3,7 +3,7 @@ import { GoogleMap, Marker, MarkerCluster, InfoWindow } from 'vue3-google-map'
 const center = { lat: 34.81021275799391, lng: 135.53224115742424 }
 const locations = [
   { lat: 34.81021275799391, lng: 135.53224115742424 },
-  // { lat: -33.718234, lng: 150.363181 },
+  { lat: 34.659399072587995, lng: 135.50570705644458 },
   // { lat: -33.727111, lng: 150.371124 },
   // { lat: -33.848588, lng: 151.209834 },
   // { lat: -33.851702, lng: 151.216968 },
@@ -36,9 +36,7 @@ const apiKey = import.meta.env.VITE_BASE_GOOGLE
   <br />
   <br />
   <br />
-  <br />
-  <br />
-  2024
+
   <div class="map">
     <GoogleMap :api-key="apiKey" style="width: 800px; height: 500px" :center="center" :zoom="12">
       <MarkerCluster>
