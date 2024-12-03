@@ -1,5 +1,6 @@
 <script setup>
 console.log(import.meta.env.VITE_BASE_TEST)
+console.log(import.meta.env.VITE_BASE_TEST)
 </script>
 
 <template>
