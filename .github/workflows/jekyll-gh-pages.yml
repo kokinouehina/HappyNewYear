@@ -41,6 +41,7 @@ jobs:
         run: npm run build
         env:
           VITE_BASE_GOOGLE: ${{ secrets.VITE_BASE_GOOGLE }}
+          VITE_BASE_TEST: ${{ secrets.VITE_BASE_TEST }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

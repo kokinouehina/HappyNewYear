@@ -1,6 +1,7 @@
 <script setup>
 import { GoogleMap, Marker, MarkerCluster, InfoWindow } from 'vue3-google-map'
 const center = { lat: 34.81021275799391, lng: 135.53224115742424 }
+console.log(import.meta.env.VITE_BASE_TEST)
 const locations = [
   { lat: 34.81021275799391, lng: 135.53224115742424 },
   // { lat: -33.718234, lng: 150.363181 },
