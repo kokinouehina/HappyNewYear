@@ -38,7 +38,7 @@ const apiKey = import.meta.env.VITE_BASE_GOOGLE
   <br />
   <br />
   <br />
-
+  2024
   <div class="map">
     <GoogleMap :api-key="apiKey" style="width: 800px; height: 500px" :center="center" :zoom="12">
       <MarkerCluster>
