@@ -7,6 +7,7 @@
   <br />
   <br />
   <br />
+  <div class="center">泣かないで！！</div>
   <div class="scroll-infinity">
     <div class="scroll-infinity__wrap">
       <ul class="scroll-infinity__list scroll-infinity__list--left">
@@ -60,5 +61,9 @@
 }
 .scroll-infinity__item > img {
   width: 100%;
+}
+
+.center {
+  text-align: center;
 }
 </style>
