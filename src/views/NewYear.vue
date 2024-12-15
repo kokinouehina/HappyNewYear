@@ -4,10 +4,6 @@
   <br />
   <br />
   <br />
-  <br />
-  <br />
-  <br />
-  <br />
   <div class="center">I plan to make an addition later on</div>
 </template>
 
